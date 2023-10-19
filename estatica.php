@@ -2,12 +2,17 @@
 
 class Car 
 {
-    public $color = 'red';
-    public $numberOfTires = 4;
-
+    private $color = 'red';
+    private $numberOfTires = 4;
+    public static $country = "Canada";
     public function __construct($color)
     {
         $this->color = $color;
+    }
+
+    public function __destruct()
+    {
+        echo "Objeto esta sendo destruído";
     }
 
     public function setColor($val)
@@ -23,10 +28,9 @@ class Car
 
 $bmw = new Car('white');
 
-echo $bmw-> getColor(); //imprimira branco porque nosso construtor atribuiu o valor branco
-
-$bmw-> setColor('black'); // irá sobrescrever a propriedade de cor para preto
-
 echo $bmw-> getColor();
+$bmw->setColor("black");
+echo $bmw-> getColor(); 
+echo Car::$country;
 
 ?>
