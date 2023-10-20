@@ -1,6 +1,6 @@
 <?php
 
-    include("\Classes\pessoaclass.php");
+    include("Classes\pessoaclass.php");
 
     $p1 = new Pessoa();
     $p2 = new Pessoa();
