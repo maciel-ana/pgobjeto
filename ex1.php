@@ -113,7 +113,3 @@
     de Cor:". $carro5->cor . "<br/>
     Ano: ". $carro5->ano . "<br/> <hr>";
 ?>
-
-                    
-
-
