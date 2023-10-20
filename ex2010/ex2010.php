@@ -51,7 +51,7 @@
     $p3->nome = "Ana Clara Maciel";
     $p3->altura = "1,50";
     $p3->nascimento = "2007-01-19";
-    $p3->hobby = "Ler e ouvir músic";
+    $p3->hobby = "Ler e ouvir música";
 
     $p4->nome = "Beatriz Baccaro";
     $p4->altura = "1.60";
