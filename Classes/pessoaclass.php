@@ -1,6 +1,6 @@
 <?php
 
-    Class Pesssoa {
+    Class Pessoa {
 
         public $nome;
         public $altura;
